@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Varidation Using Javascript</title>
+	<link rel="stylesheet" href="validate.css">
+    <script src="validate.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+	<h2>App Form</h2>
+	<div id="error_message"></div>
+	
+	<form id="myform" onsubmit="return validation()">
+		<div class="input_field">
+			<input type="text" placeholder="c" id="FullName">
+		</div>
+        <div class="input_field">
+        	<input type="text" placeholder="Username" id="Username">
+        </div>
+        <div class="input_field">
+        	<input type="text" placeholder="Password" id="Password">
+        </div>
+        <div class="input_field">
+        	<input type="text" placeholder="Contact Number" id="Contact">
+        </div>
+        <div class="input_field">
+        	<input type="text" placeholder="Email" id="Email">
+        </div>
+        <div class="input_field">
+           <input type="text" placeholder="Permanent Address" id="Permanent Address">
+        </div>
+        <div class="input_field">
+            <textarea id="message"   placeholder="Message" ></textarea>
+        </div>
+        <div class="btn">
+        	<input type="Submit">
+        </div>
+</div>       
+</body>
+</html>
